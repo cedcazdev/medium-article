@@ -35,6 +35,31 @@ a{
   margin: 0 auto;
 }
 
+@media (max-width: 120rem) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 96rem;
+  }
+}
+@media (max-width: 99.2rem) {
+/* For a screen < 700px, this CSS will be read */
+  .container {
+    width: 70rem;
+}
+}
+@media (max-width: 76.8rem) {
+/* For a screen < 500px, this CSS will be read */
+  .container {
+    width: 50rem;
+}
+}
+@media (max-width: 57.6rem) {
+/* For a screen < 300px, this CSS will be read */
+  .container {
+    width: 30rem;
+}
+}
+
 header h1{
   font-size: 3.8rem;
   font-weight: bolder;
