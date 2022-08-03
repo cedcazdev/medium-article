@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:wght@400;600&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Lora';
+}
+
+h1, h2{
+  font-family: 'Montserrat';
+}
+
+a{
+  text-decoration: none;
+}
+
+.banner{
+  background-image:  linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 60%),url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  background-position: center;
+  padding: 18rem 0rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.container{
+  width: 70rem;
+  margin: 0 auto;
+}
+
+header h1{
+  font-size: 3.8rem;
+  font-weight: bolder;
+  color: #fff;
+  margin: 0 0 4rem 0;
+  text-align: left;
+}
+
+header p{
+  font-size: 3rem;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+}
+
+.title h2{
+  /* padding: 2rem 0; */
+  margin: 2.5rem 0;
+  color: #A0A0A0;
+  font-size: 2.7rem;
+  font-weight: 400;
+}
+
+.title p{
+  /* padding: 2rem 0; */
+  margin: 1.8rem 0;
+  color: #494949;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.link-background-color{
+  font-size: 2.5rem;
+  font-style: italic;
+  line-height: 4rem;
+  color: #636363;
+  font-weight: 500;
+  background-color: rgb(226, 255, 236);
+}
+
+.link-background-color:hover{
+background-color: rgb(124, 255, 170);
+}
